@@ -1,0 +1,142 @@
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    background-color: #0000ffaf;
+    color: #ffff;
+    border: 1px solid #0000ff31;
+    padding: 10px;
+}
+
+header p {
+    margin-top: 11px;
+    font-size: 1.5rem;
+    color: #F77737;
+    font-weight: bold;
+}
+
+ header i {
+    color: #E1306C;
+    font-size: 2rem;
+ }
+
+ header i:hover {
+    color: #c5245a;
+ }
+
+ header a {
+    text-decoration: none;
+    color: #F77737;
+    margin-left: 10px;
+ }
+
+ header a:hover {
+    color: #d66228;
+ }
+
+
+/* header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+} */
+
+main img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background-color: #405DE6;
+    margin: 0 auto;
+}
+
+
+main h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #F77737;
+    color: #ffff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+.list-group .list-group-item {
+    background-color: #F77737;
+    color: #ffff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-group .list-group-item a{
+    color: #ffff;
+}
+
+.active, .list-group .list-group-item a:hover {
+    color: #405DE6;
+}
+
+.active, .list-group .list-group-item a:hover::before {
+    color: #405DE6;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+
+  @media  (max-width: 600px) {
+    header {
+        display: flex;
+        justify-content: center;
+        row-gap: 20px;
+        align-items: center;
+    }
+
+    main h2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+    
+     header i {
+        color: #E1306C;
+        font-size: 1rem;
+     }
+
+     main img {
+        width: 200px;
+     }
+
+    
+
+
+  }
+
+  
+
+  /* .btn:hover::before {
+    background-color: #666;
+    color: white;
+} */
