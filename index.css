@@ -61,6 +61,7 @@ main h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-size: 2rem;
     background-color: #F77737;
     color: #ffff;
